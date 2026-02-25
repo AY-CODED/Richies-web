@@ -3,77 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richies Web | Crafting the Future of the Web</title>
+    <title>Home | Richies Web - High-End Design & Web Studio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Optional: Add a font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="container">
             <div class="logo">Richies Web</div>
             <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="hero container">
+        <section id="hero" class="hero container fade-in">
             <div class="hero-content">
-                <h1>Crafting the Future of the Web</h1>
-                <p>Richies Web provides cutting-edge digital solutions, blending AI innovation with seamless web experiences to bring your ideas to life.</p>
-                <a href="#features" class="btn primary-btn">View Our Projects</a>
+                <h1 class="artistic-heading">Visual Storytelling Through Digital Craft.</h1>
+                <p class="hero-text">Richies Web specializes in high-impact graphic design and AI-integrated web solutions. We turn abstract concepts into visual masterpieces.</p>
+                <a href="portfolio.html" class="btn primary-btn">Explore Portfolio</a>
             </div>
         </section>
 
-        <section id="features" class="features container">
-            <h2 class="section-title">Our Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="icon">🚀</div>
+        <section id="services-summary" class="services container fade-in">
+            <h2 class="section-title">Studio Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <span class="service-number">01</span>
+                    <h3>Graphic Design</h3>
+                    <p>Creating visual identities that resonate and leave a lasting impression.</p>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">02</span>
                     <h3>Web Development</h3>
-                    <p>Modern, responsive, and high-performance websites built with the latest technologies.</p>
+                    <p>Bespoke digital experiences powered by cutting-edge technology and AI.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="icon">🤖</div>
-                    <h3>AI Solutions</h3>
-                    <p>Intelligent digital solutions that leverage artificial intelligence to solve complex problems.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🛠️</div>
-                    <h3>Software Craftsmanship</h3>
-                    <p>Expertly crafted software tailored to your specific business needs and goals.</p>
+                <div class="service-item">
+                    <span class="service-number">03</span>
+                    <h3>Brand Strategy</h3>
+                    <p>Defining the soul of your brand to connect deeply with your audience.</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact container">
-            <h2 class="section-title">Get In Touch</h2>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn secondary-btn">Send Message</button>
-            </form>
+        <section class="narrative container fade-in">
+            <div class="narrative-content">
+                <h2>Artistry meets Innovation</h2>
+                <p>In the heart of every project lies a story waiting to be told. We blend the precision of code with the soul of design to create digital products that aren't just functional, but emotional.</p>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Richies Web. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo">Richies Web</div>
+                    <p>High-end Graphic Design & Web Development Studio.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="Dribbble">DR</a>
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Richies Web. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
